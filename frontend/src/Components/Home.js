@@ -139,18 +139,14 @@ const Home = () => {
             <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-           
             <img
                 className="d-block w-100 home-carousel-img-desktop"
                 src="images/grouppic.jpg"
                 alt="Second slide"
             />
-          
-
             <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-           
             <img
                 className="d-block w-100 home-carousel-img-desktop"
                 src="images/IMG_20230418_104312.jpg"
@@ -172,7 +168,6 @@ const Home = () => {
                 src="images/IMG_20220917_112412.jpg"
                 alt="First slide"
             />
-
             <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -181,7 +176,6 @@ const Home = () => {
                 src="images/IMG-20231228-WA0009.jpg"
                 alt="Second slide"
             />
-
             <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -190,12 +184,10 @@ const Home = () => {
                 src="images/IMG_20231228_173735.jpg"
                 alt="Third slide"
             />
-
             <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
     </Carousel>
 </div>
-
         </div>
         <div className="home-about-content">
           <h2 className="home-about-heading">INTERVIEWS</h2>
@@ -207,10 +199,8 @@ Nirmaan actively organizes job drives and collaborates with various companies to
         </div>
       </div>
     </div>
-
 <Footer />
         </>
     )
 }
-
 export default Home
