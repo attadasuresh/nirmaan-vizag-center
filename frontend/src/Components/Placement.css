@@ -1,0 +1,94 @@
+/* General Styling */
+.placement-top-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin: 20px 0;
+}
+
+.placement-top-heading-span {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Grid Container */
+.placement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Maintain responsive columns */
+  gap: 20px;
+  padding: 20px;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 768px) {
+  .placement-grid {
+    max-width: 1200px; /* Expand grid container on larger screens */
+    padding: 40px; /* Add more spacing around the grid */
+  }
+}
+
+/* Card Styling */
+.placement-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.placement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.placement-card-image {
+  width: 100%;
+  height: 290px; /* Adjusted height for better proportionality */
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+.placement-card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.placement-card-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.placement-card-company,
+.placement-card-salary,
+.placement-card-college,
+.placement-card-batch {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 768px) {
+  .placement-card-image {
+    height: 200px; /* Shorten height for a sleeker look on desktops */
+  }
+
+  .placement-card-content {
+    padding: 25px; /* More padding for desktop view */
+  }
+
+  .placement-card-name {
+    font-size: 1.8rem; /* Slightly larger font size */
+  }
+
+  .placement-card-company,
+  .placement-card-salary,
+  .placement-card-college,
+  .placement-card-batch {
+    font-size: 1.1rem; /* Increase font size slightly */
+  }
+}
