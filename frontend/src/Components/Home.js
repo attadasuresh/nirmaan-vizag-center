@@ -4,8 +4,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import { MdOutlineWifiTetheringErrorRounded } from "react-icons/md";
 import { FaRocket } from "react-icons/fa";
 
-
-
 import './Home.css'
 import Footer from './Footer';
 const Home = () => {
@@ -109,8 +107,6 @@ const Home = () => {
         </div>
       </div>
     </div>
-
-
 <div className='full-card-vision-contaier'>
     <div className='home-icon-full-card-container'>
         <div className='home-icon-container'>
@@ -160,12 +156,11 @@ const Home = () => {
                 src="images/IMG_20230418_104312.jpg"
                 alt="Third slide"
             />
-
             <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
     </Carousel>
 </div>
-            <div className="home-about-us-section">
+ <div className="home-about-us-section">
       <h1 className="home-home-about">JOB DRIVE</h1>
       <div className="home-about-us-container">
         <div className="home-about-image-wrapper">
